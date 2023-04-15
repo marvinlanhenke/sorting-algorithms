@@ -2,13 +2,9 @@
 
 ## Quick-Sort:
 
-> **Strategy**:
+> **Strategy**: Divide & Conquer
 
-- Divide & Conquer
-
-> **Description**:
-
-- Picks an element as a pivot and partitions the given array around the picked pivot. Selection of pivot can be done in different ways (always pick the first, the last, a random element, or median). The target of `partion` is to put the pivot at its correct position in a sorted array and put all smaller elements before, and all greater elements after the pivot. This should be done in linear time.
+> **Description**: Picks an element as a pivot and partitions the given array around the picked pivot. Selection of pivot can be done in different ways (always pick the first, the last, a random element, or median). The target of `partion` is to put the pivot at its correct position in a sorted array and put all smaller elements before, and all greater elements after the pivot. This should be done in linear time.
 
 > **Algorithm**:
 

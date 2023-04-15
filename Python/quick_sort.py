@@ -20,7 +20,6 @@ def partition(arr: List[int], left: int, right: int) -> int:
 
 
 def quick_sort(arr: List[int], left: int, right: int) -> None:
-    print(left, right)
     if left < right:
         pivot = partition(arr, left, right)
 
