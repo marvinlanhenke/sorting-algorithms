@@ -1,5 +1,28 @@
 # Basic Sorting Algorithms
 
+## Bubble-Sort:
+
+> **Strategy**: Simple Comparison
+
+> **Description**: Repeatedly step through the list, compare adjacent elements, and swap them if they are in the wrong order. This process continues until no more swaps are needed, which indicates that the list is sorted. The algorithm gets its name because smaller elements "bubble" to the front of the list, while larger elements "sink" to the end of the list with each pass.
+
+> **Algorithm**:
+
+1.  Iterate over each element of the array with index_i (outer loop)
+2.  Iterate from left to the array length minus index_i - 1 (since the last elements are already in place)(inner loop)
+3.  Compare the current value with the adjacent one. If it's greater - swap.
+
+> **Time & Space Complexity**:
+
+| Performance       | Complexity |
+| ----------------- | ---------- |
+| Worst-case time   | O(n^2)     |
+| Best-case time    | O(n)       |
+| Average-case time | O(n^2)     |
+| Space             | O(1)       |
+
+---
+
 ## Quick-Sort:
 
 > **Strategy**: Divide & Conquer
