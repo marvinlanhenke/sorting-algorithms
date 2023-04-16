@@ -7,6 +7,12 @@ fn main() {
 }
 
 fn insertion_sort<T: Ord>(arr: &mut [T]) {
+    let n = arr.len();
+
+    if n <= 1 {
+        return;
+    }
+
     for i in 1..arr.len() {
         let mut j = i;
         while j > 0 && arr[j] < arr[j - 1] {
