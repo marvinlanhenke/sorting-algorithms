@@ -1,4 +1,4 @@
-function selectionSort(arr) {
+function insertionSort(arr) {
     const n = arr.length;
 
     for (let i = 0; i < n; i++) {
@@ -15,5 +15,5 @@ function selectionSort(arr) {
 const arr = [1, 7, 4, 1, 10, 9, -2];
 console.log(`Unsorted Array: ${arr}`);
 
-selectionSort(arr);
+insertionSort(arr);
 console.log(`Sorted Array: ${arr}`);
