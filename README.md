@@ -1,6 +1,6 @@
 # Basic Sorting Algorithms
 
-## Bubble-Sort:
+## Bubble Sort:
 
 > **Strategy**: Simple Comparison
 
@@ -23,7 +23,32 @@
 
 ---
 
-## Quick-Sort:
+## Selection Sort:
+
+> **Strategy**: Simple Comparison
+
+> **Description**: Sorts an array by repeatedly finding the minimum element from the unsorted part of the array and placing it at the beginning of the array. The algorithm maintains two subarrays in the given array: the sorted subarray, which is built up from left to right at the beginning of the array, and the unsorted subarray, which contains the remaining unsorted elements.
+
+> **Algorithm**:
+
+1.  Assume the first element of the array is the minimum element.
+2.  Traverse the array from the second to the last element.
+3.  Compare each element with the current minimum. Update accordingly.
+4.  After completing one pass swap the minimum element with the first element in the array.
+5.  Repeat step 2-4 for the remaining unsorted array.
+
+> **Time & Space Complexity**:
+
+| Performance       | Complexity |
+| ----------------- | ---------- |
+| Worst-case time   | O(n^2)     |
+| Best-case time    | O(n^2)     |
+| Average-case time | O(n^2)     |
+| Space             | O(1)       |
+
+---
+
+## Quick Sort:
 
 > **Strategy**: Divide & Conquer
 
