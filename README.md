@@ -48,6 +48,55 @@
 
 ---
 
+## Insertion Sort:
+
+> **Strategy**: Simple Comparison
+
+> **Description**: Works by comparing each element in the array with the elements that come before it and shifting the larger elements up by one position until the correct position for the current element is found. This process continues until all elements in the array are sorted.
+
+> **Algorithm**:
+
+1.  Start at the second element in the array.
+2.  Compare the current with the element to its left.
+3.  If smaller, then shift the larger element up by one position.
+4.  Continue traversing. Repeat steps 2-3.
+
+> **Time & Space Complexity**:
+
+| Performance       | Complexity |
+| ----------------- | ---------- |
+| Worst-case time   | O(n^2)     |
+| Best-case time    | O(n)       |
+| Average-case time | O(n^2)     |
+| Space             | O(1)       |
+
+---
+
+## Merge Sort:
+
+> **Strategy**: Divide & Conquer
+
+> **Description**: Divide an array into smaller subarrays, sort them recursively, and then merge the sorted subarrays to produce a sorted array.
+
+> **Algorithm**:
+
+1.  Divide the unsorted array into two halves using a middle index.
+2.  Recursively sort the left and right subarrays by repeating step 1 until only one element is left in each subarray.
+3.  Iterate over left and right mainting two indices i and j.
+4.  Compare the element at i vs. element at j. If element i is smaller store element into new array and increase i. Else store element j and increase j.
+5.  After traversing add any remaining elements to the array.
+
+> **Time & Space Complexity**:
+
+| Performance       | Complexity |
+| ----------------- | ---------- |
+| Worst-case time   | O(n log n) |
+| Best-case time    | O(n log n) |
+| Average-case time | O(n log n) |
+| Space             | O(n)       |
+
+---
+
 ## Quick Sort:
 
 > **Strategy**: Divide & Conquer
